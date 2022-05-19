@@ -19,7 +19,7 @@ locals {
   subnet_id = "subnet-090b00b428115f9c9"
   ssh_user = "Ubuntu"
   key_name = "Ubuntu_keypair"
-  private_key_path = "C:\Users\nimaldas\Downloads\Ubuntu_keypair.pem"
+  private_key_path = "/home/nimaldaspsgmail/repo/ubuntu_keypair.pem"
 }
 resource "aws_instance" "server" {
   ami           = "ami-04505e74c0741db8d"
