@@ -15,8 +15,8 @@ provider "aws" {
 }
 
 locals {
-  vpc_id = "vpc-0445c7003cbc00c73"
-  subnet_id = "subnet-096b04687ecd71826"
+  vpc_id = "vpc-02aba9d571132e32f"
+  subnet_id = "subnet-090b00b428115f9c9"
   ssh_user = "Ubuntu"
   key_name = "Ubuntu_keypair"
   private_key_path = "C:\Users\nimaldas\Downloads\Ubuntu_keypair.pem"
